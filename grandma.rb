@@ -3,10 +3,8 @@ require 'pry'
 def speak_to_grandma(phrase)
   if phrase == phrase.upcase
     puts "HUH?! SPEAK UP, SONNY!"
-    binding.pry
-  elsif phrase
   end
-   
+
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
